@@ -14,3 +14,4 @@ yarn install
 git add yarn.lock
 git commit -m "Updated Yarn lockfile"
 tried setting the value for environment
+test
