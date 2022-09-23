@@ -59,7 +59,7 @@ $RECYCLE.BIN/
 *.swm
 *.out
 *.pid
-*.bat
+
 
 ############################
 # Logs and databases
@@ -112,4 +112,3 @@ exports
 *.cache
 build
 .strapi-updater.json
-.heroku.txt
