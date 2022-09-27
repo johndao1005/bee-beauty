@@ -1,4 +1,13 @@
 {
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.0.0",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.27",
+    "@strapi/strapi": "4.3.9",
+    "@strapi/plugin-users-permissions": "4.3.9",
+    "@strapi/plugin-i18n": "4.3.9",
+    "better-sqlite3": "7.4.6"
+  },
   "name": "bee-beauty",
   "private": true,
   "version": "0.1.0",
@@ -10,19 +19,12 @@
     "strapi": "strapi"
   },
   "devDependencies": {},
-  "dependencies": {
-    "@strapi/plugin-i18n": "4.3.9",
-    "@strapi/plugin-users-permissions": "4.3.9",
-    "@strapi/strapi": "4.3.9",
-    "better-sqlite3": "7.4.6",
-    "pg": "^8.8.0",
-    "pg-connection-string": "^2.5.0"
-  },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "f9737d81-b5ad-4d5e-9c30-92ccdabd870b"
+    "uuid": "247cdcfc-f8e2-40d7-8d37-137d14cd5c89",
+    "template": "@strapi/template-blog@1.0.0"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
