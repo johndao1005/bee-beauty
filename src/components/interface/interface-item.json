@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_interface_interface_items",
+  "info": {
+    "displayName": "Interface.Item"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ItemName": {
+      "type": "string"
+    }
+  }
+}

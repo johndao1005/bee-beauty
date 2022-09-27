@@ -1,19 +1,17 @@
 {
-  "collectionName": "components_seo_seos",
+  "collectionName": "components_interface_interface_heroes",
   "info": {
-    "displayName": "seo",
-    "icon": "american-sign-language-interpreting",
-    "description": ""
+    "displayName": "Interface.Hero"
   },
   "options": {},
   "attributes": {
-    "metaTitle": {
+    "Title": {
       "type": "string"
     },
-    "metaDescription": {
+    "Description": {
       "type": "string"
     },
-    "SharedImage": {
+    "Image": {
       "allowedTypes": [
         "images",
         "files",
@@ -21,7 +19,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true
     }
   }
 }

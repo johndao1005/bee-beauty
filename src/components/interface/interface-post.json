@@ -1,19 +1,17 @@
 {
-  "collectionName": "components_seo_seos",
+  "collectionName": "components_interface_interface_posts",
   "info": {
-    "displayName": "seo",
-    "icon": "american-sign-language-interpreting",
-    "description": ""
+    "displayName": "Interface.Post"
   },
   "options": {},
   "attributes": {
-    "metaTitle": {
+    "name": {
       "type": "string"
     },
-    "metaDescription": {
+    "Description": {
       "type": "string"
     },
-    "SharedImage": {
+    "Image": {
       "allowedTypes": [
         "images",
         "files",
@@ -22,6 +20,12 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "Like": {
+      "type": "integer"
+    },
+    "Share": {
+      "type": "integer"
     }
   }
 }

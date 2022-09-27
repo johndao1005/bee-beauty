@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "services",
   "info": {
-    "singularName": "product",
-    "pluralName": "products",
-    "displayName": "Product",
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
     "description": ""
   },
   "options": {
@@ -17,6 +17,9 @@
     },
     "Description": {
       "type": "text"
+    },
+    "content": {
+      "type": "richtext"
     },
     "Image": {
       "allowedTypes": [
@@ -35,10 +38,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
-      "inversedBy": "products"
-    },
-    "content": {
-      "type": "richtext"
+      "inversedBy": "services"
     }
   }
 }

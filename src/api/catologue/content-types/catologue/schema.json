@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "catologues",
+  "info": {
+    "singularName": "catologue",
+    "pluralName": "catologues",
+    "displayName": "Catologue"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

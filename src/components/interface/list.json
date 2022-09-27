@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_interface_lists",
+  "info": {
+    "displayName": "Interface.List",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,19 +1,18 @@
 {
   "kind": "singleType",
-  "collectionName": "blogs",
+  "collectionName": "posts",
   "info": {
-    "singularName": "blog",
-    "pluralName": "blogs",
-    "displayName": "BlogPage",
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "PostPage",
     "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
     "seo": {
-      "displayName": "seo",
       "type": "component",
       "repeatable": true,
       "component": "seo.seo"
