@@ -1,5 +1,5 @@
-import { Box, Button, Container, Grid, Typography } from '@mui/material'
-import React from 'react'
+import { Container, Grid, Typography } from '@mui/material'
+import React,{useEffect} from 'react'
 import AdbIcon from '@mui/icons-material/Adb';
 
 export default function Footer() {
@@ -151,7 +151,7 @@ export default function Footer() {
   </Grid>)
 
   const topSection = (
-    <Container maxWidth="xl" sx={{ backgroundColor: 'black', color: 'white', display: 'block', mt: 5, pt: 3 }}>
+    <Container maxWidth="xl" sx={{ backgroundColor: 'black', color: 'white', display: 'block' , pt: 4 }}>
       <Grid container spacing={2}
         direction="row"
         justifyContent="center" >

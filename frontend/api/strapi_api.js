@@ -18,7 +18,6 @@ export function getStrapiURL(path = "") {
  * @param {Object} options Options passed to fetch
  * @returns Parsed API call response
  */
-
 export async function fetchAPI(path, urlParamsObject = {}, options = {}) {
   // Merge default and user options
   const mergedOptions = {
@@ -46,6 +45,11 @@ export async function fetchAPI(path, urlParamsObject = {}, options = {}) {
   return data;
 }
 
+/**
+ * 
+ * @param {object} media objecct detail for the media
+ * @returns url string for media file
+ */
 export function getStrapiMedia(media) {
   const { url } = media.data.attributes;
   const imageUrl = url.startsWith("/") ? getStrapiURL(url) : url;
