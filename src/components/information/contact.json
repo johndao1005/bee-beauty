@@ -1,17 +1,20 @@
 {
-  "collectionName": "components_interface_interface_posts",
+  "collectionName": "components_information_contacts",
   "info": {
-    "displayName": "Interface.Post"
+    "displayName": "contact"
   },
   "options": {},
   "attributes": {
-    "name": {
+    "email": {
+      "type": "email"
+    },
+    "phone": {
       "type": "string"
     },
-    "Description": {
+    "address": {
       "type": "string"
     },
-    "Image": {
+    "image": {
       "allowedTypes": [
         "images",
         "files",
@@ -20,12 +23,6 @@
       ],
       "type": "media",
       "multiple": false
-    },
-    "Like": {
-      "type": "integer"
-    },
-    "Share": {
-      "type": "integer"
     }
   }
 }

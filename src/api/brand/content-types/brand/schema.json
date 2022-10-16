@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "services",
+  "collectionName": "brands",
   "info": {
-    "singularName": "service",
-    "pluralName": "services",
-    "displayName": "Service",
+    "singularName": "brand",
+    "pluralName": "brands",
+    "displayName": "Brand",
     "description": ""
   },
   "options": {
@@ -15,12 +15,9 @@
     "name": {
       "type": "string"
     },
-    "content": {
-      "type": "richtext"
-    },
-    "image": {
+    "picture": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -29,8 +26,11 @@
         "audios"
       ]
     },
-    "slug": {
-      "type": "uid"
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product",
+      "mappedBy": "brand"
     },
     "description": {
       "type": "string"

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_interface_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "interface.button"
+    }
+  }
+}

@@ -19,6 +19,22 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "interface.cta"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "interface.hero"
+    },
+    "carousel": {
+      "displayName": "carousel",
+      "type": "component",
+      "repeatable": false,
+      "component": "interface.carousel"
     }
   }
 }
