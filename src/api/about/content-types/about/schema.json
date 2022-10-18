@@ -16,6 +16,21 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "interface.hero"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "interface.information"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "interface.hero"
     }
   }
 }

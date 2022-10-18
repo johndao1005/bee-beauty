@@ -45,6 +45,10 @@
       "relation": "manyToOne",
       "target": "api::writer.writer",
       "inversedBy": "articles"
+    },
+    "like": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
