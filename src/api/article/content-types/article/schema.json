@@ -49,6 +49,12 @@
     "like": {
       "type": "integer",
       "default": 0
+    },
+    "review": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::review.review",
+      "inversedBy": "articles"
     }
   }
 }
